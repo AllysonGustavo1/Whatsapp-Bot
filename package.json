@@ -1,0 +1,21 @@
+{
+  "name": "wppbot",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Allyson",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.46.3",
+    "axios": "^0.24.0"
+  }
+}
